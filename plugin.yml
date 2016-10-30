@@ -1,0 +1,33 @@
+name: WorldBorders
+main: com.gmail.absolutevanillahelp.WorldBorders.WorldBorders
+version: 1.0
+commands:
+  spawn:
+    description: Teleport to spawn.
+    usage: /spawn
+    permission: WorldBorders.spawn
+  senditem:
+    description: Send item you are holding to another player.
+    usage: /senditem [player]
+    permission: WorldBorders.senditem
+  glist:
+    description:
+    usage:
+    permission:
+  unlockc:
+    description: Known to few.
+    usage: /unlockc
+    permission: WorldBorders.unlockc
+  verifyc:
+    description: Known to few.
+    usage: /verifyc
+    permission: WorldBorders.verifyc
+permissions:
+  WorldBorders.spawn:
+    default: op
+  WorldBorders.senditem:
+    default: true
+  WorldBorders.unlockc:
+    default: true
+  WorldBorders.verifyc:
+    default: true
